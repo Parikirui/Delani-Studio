@@ -1,60 +1,60 @@
 $(document).ready(function () {
-    $("div#design").click(function(event) {
+    $("div#des").click(function(event) {
         event.preventDefault();
-        $("div#design").toggle();
-        $("p#designText").toggle();
-        $("div#designLabel").show();
+        $("div#des").toggle();
+        $("p#desText").toggle();
+        $("div#desLabel").show();
 
     });
 
-    $("p#designText").click(function(event) {
+    $("p#desText").click(function(event) {
         event.preventDefault();
        
-        $("p#designText").toggle();
-        $("div#design").toggle();
-        $("div#designLabel").hide();
+        $("p#desText").toggle();
+        $("div#des").toggle();
+        $("div#desLabel").hide();
 
 
     });
 });
 
 $(document).ready(function () {
-    $("div#development").click(function(event) {
+    $("div#dev").click(function(event) {
         event.preventDefault();
 
-        $("div#development").toggle();
-        $("p#developmentText").toggle();
-        $("div#developmentLabel").show();
+        $("div#dev").toggle();
+        $("p#devText").toggle();
+        $("div#devLabel").show();
 
     });
 
-    $("p#developmentText").click(function(event) {
+    $("p#devText").click(function(event) {
         event.preventDefault();
 
-        $("div#development").toggle();
-        $("p#developmentText").toggle();
-        $("div#developmentLabel").hide();
+        $("div#dev").toggle();
+        $("p#devText").toggle();
+        $("div#devLabel").hide();
 
 
     });
 });
 
 $(document).ready(function () {
-    $("div#productManagement").click(function(event) {
+    $("div#product").click(function(event) {
         event.preventDefault();
 
-        $("div#productManagement").toggle();
-        $("p#productManagementText").toggle();
-        $("div#productManagementLabel").show();
+        $("div#product").toggle();
+        $("p#productText").toggle();
+        $("div#productLabel").show();
         
     });
 
-    $("p#productManagementText").click(function(event) {
+    $("p#productText").click(function(event) {
         event.preventDefault();
 
-        $("div#productManagement").toggle();
-        $("p#productManagementText").toggle();
-        $("div#productManagementLabel").hide();
+        $("div#product").toggle();
+        $("p#productText").toggle();
+        $("div#productLabel").hide();
         
     });
 });

@@ -209,14 +209,14 @@ input[type=text], select, textarea {
   align-items: center;
 }
 
-#designText{
+#desText{
   display: none;
 }
 
-#developmentText {
+#devText {
   display: none;
 }
 
-#productManagementText {
+#productText {
   display: none;
 }
