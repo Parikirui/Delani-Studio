@@ -180,3 +180,44 @@ input[type=text], select, textarea {
     margin-bottom: 20px;
 }
 
+/* WHAT WE DO */
+.whatWeDo {
+  color: black;
+  font-size: small;
+  padding: 80px 80px 60px 80px;
+}
+
+.whatWeDo h2 {
+  margin-bottom: 20px;
+}
+
+.whatWeDoContentWrapper {
+  text-align: center;
+}
+
+.whatWeDoServiceIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.whatWeDoServiceIcons div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#designText{
+  display: none;
+  font-size: small;
+}
+
+#developmentText {
+  display: none;
+}
+
+#productManagementText {
+  display: none;
+}
+
