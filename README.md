@@ -27,4 +27,4 @@ In case of any issues while using the system, users can reach out to the site de
 Phone_Number: +254708541280
 Email: isaac.kirui@student.moringaschool.com
 ## License
-Copyright@Kiruis-Portfolio. All rights Reserved. 2021.
+Copyright@Delani-Studio. All rights Reserved. 2021.
