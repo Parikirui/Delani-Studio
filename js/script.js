@@ -1,6 +1,19 @@
-$(document).ready(function() {
-    $("p").click(function() {
-      $(".design_icon-showing").toggle();
-      $(".design_icon-hidden").toggle();
+$(document).ready(function () {
+    $("div#design").click(function(event) {
+        event.preventDefault();
+        $("div#design").toggle();
+        $("p#designText").toggle();
+        $("div#designLabel").show();
+
     });
-  });
+
+    $("p#designText").click(function(event) {
+        event.preventDefault();
+       
+        $("p#designText").toggle();
+        $("div#design").toggle();
+        $("div#designLabel").hide();
+
+
+    });
+});
